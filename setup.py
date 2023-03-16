@@ -6,7 +6,7 @@ setup(
     author='Ohad Rubin',
     author_email='your.email@example.com',
     description='A short description of your library',
-    packages=find_packages(),
+    packages=["halton"],
     install_requires=[
         'numpy',
         'absl-py',
