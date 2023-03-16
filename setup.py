@@ -9,6 +9,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'numpy',
-        'absl-py'
+        'absl-py',
+        "click"
     ],
 )
